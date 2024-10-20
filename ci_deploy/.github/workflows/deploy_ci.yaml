@@ -8,6 +8,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-        run: echo "hello"
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo "hello"
  
 
