@@ -3,7 +3,7 @@ name: Readme Checker
 on:
   push:
      branches:
-        - main
+        - master
 
 jobs:
   test:
